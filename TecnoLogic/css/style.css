@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+figure, section, article, aside, header, footer  {display: block}
+
+article {width: 100%; margin-top: 15px; text-align: justify; }
+
+figure img{
+	width: 100%;
+	height: auto;
+}
+
+body{
+	color: #061A9C;
+	background-color: #FFFFF0;
+	font-family: "Arial";
+}
+
+#container{
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+
+.Login{
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	width: 30%;
+	background-color: white;
+	border-radius: 3px;
+}
+
+.urlImage{
+	width: 22%;
+	display: inline-block;
+}
+
+
+#containerT{
+	text-align: center;
+	width: 70%;
+	height: auto;
+	margin: auto;
+}
+
+#encabezado{
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #1E90FF;
+
+}
+
+#contentMensajes{
+	text-align: center;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #ADD8E6;
+	display: block;
+}
+
+.contentMsg{
+	display: inline-block;
+	width: 60%;
+	margin: 20px;
+	padding: 10px;
+
+}
+
+.meGusta{
+	width: 100%;
+	text-align: right;
+	color: white;
+	transition:color 0.3s;
+}
+
+.meGusta:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#footer{
+
+
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #1E90FF;
+
+}
+
+.clickedButton{
+	color: #4682B4;
+	transition:color 0.1s;
+}
+
+.msg{
+	width: 100%;
+	vertical-align: top;
+	background-color: #E0FFFF;
+	border-radius: 4px;
+}
+
+
+h1{
+	margin: auto;
+	color: white;
+	line-height: 70px;
+	font-size: 40px;
+	text-align: center;
+}
+
+h3{
+	margin: 10px;
+	font-size: 20px;
+	color: #1E90FF;
+}
+
+p { margin: 10px;
+
+}
+
+h2 {
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	
+
+}
+
+input[type=text], input[type=password] { width: 70%; }
+
+@media screen and (max-width: 500px){
+	#containerT{width: 100%;}
+	h1 {width: 100%; font-size: 25pt;text-align: center;}
+}
